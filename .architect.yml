@@ -1,7 +1,7 @@
 environment: ubuntu1404-node
 modes:
   prod: prod
-  dev: prod
+  prod: dev
 prepare:
   - sudo apt-get update && sudo apt-get install --yes build-essential libstdc++6 automake
 
