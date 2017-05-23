@@ -6,7 +6,6 @@ prepare:
   - sudo apt-get update && sudo apt-get install --yes build-essential libstdc++6 automake
 
 build:
-  - git submodule update --init
   - make deps
   - make
   - tar czf /build/corvus.tgz /build/src/corvus
