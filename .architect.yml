@@ -8,5 +8,5 @@ prepare:
 build:
   - make deps
   - make
-  - tar czf /build/corvus.tgz /build/withings-sas/corvus/src/corvus
+  - cd /build/withings-sas/corvus/src && tar czf /build/corvus.tgz corvus
 publish: /build/corvus.tgz
